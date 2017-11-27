@@ -76,3 +76,7 @@ footer {
 	visibility: hidden;
 	height: 0;
 }
+
+img {
+	width: 1000px;
+}
