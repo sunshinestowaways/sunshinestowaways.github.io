@@ -1,0 +1,102 @@
+#nav_one {
+	background-color: #aaaaaa;
+	font-family: Arial, sans-serif;
+}
+
+nav a {
+	background-color: #ff7900;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	padding: 20px;
+}
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: palatino, sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+div{ 
+	font-size: 40px;
+	width: 33%;
+	display: inline-block;
+	clear: both;
+ }
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.wrapper {
+	background-color: purple;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+}
+
+.three_column {
+	float: left;
+	width: 350px;
+	margin: 20px;
+	background-color: #1ECCFF;
+	font-family: georgia, sans-serif;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#food {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#fitness {
+	background-color: #900CE8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#travel {
+	background-color: #E55B88;
+	border: 1 px black solid;
+	padding: 20px;
+}
+
+aside { 
+	float: right;
+	font-size: 14px;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 20px 0 0;
+	clear: both;
+ }
+
+ img {
+ 	display: block;
+ 	margin: 0 auto;
+ 	width: 300px;
+ }
