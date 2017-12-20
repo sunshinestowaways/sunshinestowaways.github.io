@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Allura'); 
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 20px;
+	margin: 0 auto;
+	font-family: georgia;
+	text-align: left;
+	width: 100%;
+	vertical-align: top;
+}
+
+#nav_one {
+	font-family: georgia, sans-serif;
+	text-align: center;
+}
+
+nav a {
+	background-color: white;
+	color: #28AFD8;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	float: float;
+	padding: 1em;
+	width: 7.5em;
+	margin: .25em;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #9094CE;
+}
+
+label {
+	background-color: #9522FF;
+	color: white;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 1em;
+	width: 7.5em;
+	text-align: center;
+	display: none;
+}
+
+h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 2em;
+	padding: .25em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	text-align: center;
+	font-family: 'Allura', cursive;
+}
+
+h3 {
+	font-size: 1.25em;
+	text-decoration: underline;
+	padding: .25em;
+}
+
+div{ 
+	font-size: 2em;
+	width: 100%;
+	display: inline-block;
+	clear: both;
+	vertical-align: top;
+ }
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.wrapper {
+	background-color: purple;
+}
+
+p {
+	text-align: justify;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	font-size: .75em;
+}
+
+nav {
+	text-align: center;
+}
+
+main {
+	text-align: center;
+}
+
+.two_column {
+	margin: 0 auto;
+	font-family: georgia, sans-serif;
+	padding: 10%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #A790CE;
+	border: .25em black solid;
+	padding: 1em;
+	width: 25em;
+	height: 40em;
+}
+
+#toggle {
+	display: none;
+}
+
+aside {
+	text-align: center;
+	margin: 1em;
+	padding: 1em;
+	font-size: .75em;
+	background-color: none;
+}
+
+footer {
+	background-color: #A790CE;
+	font-style: italic;
+	border: .05em black solid;
+	margin: 0 auto;
+}
+
+#footer {
+	text-align: center;
+}
+
+ img {
+ 	display: block;
+ 	margin: 0 auto;
+ 	width: 75%;
+ 	padding: .25em;
+ }
+
+@media only screen and (max-width: 1004px) {
+	.two_column {
+		height: 560px;
+		float: none;
+		height: auto;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 984px) {
+ 
+	nav a {
+		display: inline-block;
+		font-weight: bold;
+		float: center;
+		padding: .25em;
+		width: 25%;
+		margin: .05em;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#nav_one {
+		display: inline-block;
+		font-weight: bold;
+		float: center;
+		padding: .25em;
+		width: 100%;
+		margin: .25em;
+		text-align: center;
+	}
+}
